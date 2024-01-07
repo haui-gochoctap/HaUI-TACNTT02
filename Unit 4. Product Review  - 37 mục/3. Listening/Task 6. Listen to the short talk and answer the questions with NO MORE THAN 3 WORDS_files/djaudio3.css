@@ -1,0 +1,55 @@
+.djaudio {background:#D72027;font:normal 14px/1.4 Arial;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;display:flex;border-radius:1px;margin:3px auto;height:35px}
+.djaudio .hidden{display:none}
+.djaudio .dta-main{display:flex;align-items:center;width:100%}
+.djaudio .dt-graph{flex:1;height:40px}
+.djaudio .aud-btn.now,.djaudio .prel{display:flex;align-items:center}
+.djaudio .aud-btn {width:40px;height:40px;color:#FFF}
+.djaudio .aud-btn.now{width:auto}
+.djaudio .aud-btn.baonoi{padding:0 6px}
+.djaudio .next svg,.djaudio .pause svg,.djaudio .play svg,.djaudio .prev svg{width:35px;height:35px}
+.djaudio .prel .aud-text,.speech{align-items:center;display:flex}
+.djaudio .prel .aud-text{height:100%;padding:0 6px 0 0;justify-content:center;font-size:90%}
+.djaudio .prel .aud-bg{height:100%;flex:1;cursor:pointer;position:relative}
+.djaudio .prel .aud-bg .seek,.djaudio .prel .aud-bg:before{height:4px;position:absolute;top:50%;left:0}
+.djaudio .prel .aud-bg:before{transform:translateY(-50%);width:100%;-webkit-transform:translateY(-50%);content:""}
+.djaudio .prel .aud-bg .seek{width:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.djaudio .speech,.djaudio .speech-menu{position: relative}
+.djaudio .speech{justify-content:center}
+.djaudio .speech svg{width:30px;height:30px}
+.djaudio .speech-menu .spmn{position:absolute;display:flex;flex-direction:column;list-style:none;padding:0;background-color:#EEE;margin:0;right:0;top:100%}
+.djaudio .speech-menu .spmn li{line-height:40px}
+.djaudio .speech-menu .spmn li a{text-decoration:none;padding:0 10px;display:flex;flex-wrap:nowrap;white-space:nowrap}
+.djaudio a.spactive svg{fill:#4169e1}
+/*tts*/
+.djaudio.dtts{padding:0}
+.djaudio.dtts .prel .aud-text{color:#FFF}
+.djaudio.dtts .prel .aud-bg:before{background-color:#FFF}
+.djaudio.dtts .prel .aud-bg .seek{background-color:#BE0000}
+.djaudio.dtts .dta-main svg.dgcolor{fill:#FFF}
+.djaudio.dtts .dta-main svg>path.dgcolor{fill:#FFF}
+.djaudio.dtts .aud-btn.baonoi,.djaudio.dtts .prel .aud-text{color:#FFF}
+/*podcast*/
+.djaudio.dpodcast{display:block;background:transparent}
+.djaudio.dpodcast .pl{padding-left:6px !important}
+.djaudio.dpodcast .pr{padding-right:6px !important}
+.djaudio.dpodcast .volumn{display:flex;width:200px;padding-left:5px}
+.djaudio.dpodcast .volumn .nut{position:relative}
+.djaudio.dpodcast .volumn .nut a{text-align:center;padding-left:8px}
+.djaudio.dpodcast .volumn .aud-btn{width:25px;height:25px;display:flex}
+.djaudio.dpodcast .volumn .aud-bg{height:13px;flex:1;cursor:pointer;position:relative}
+.djaudio.dpodcast .volumn .aud-bg:before{transform:translateY(-50%);width:100%;-webkit-transform:translateY(-50%);content:""}
+.djaudio.dpodcast .volumn .aud-bg .seek,.djaudio.dpodcast .volumn .aud-bg:before{height:2px;position:absolute;top:50%;left:0}
+.djaudio.dpodcast .volumn .aud-bg .seek{width:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.djaudio.dpodcast .panel{padding-left:100px}
+.djaudio.dpodcast .panel>a{padding-right:20px}
+
+.djaudio.dpodcast .volumn .aud-bg:before{background-color:#FFF}
+.djaudio.dpodcast .volumn .aud-bg .seek{background-color:#4169e1}
+.djaudio.dpodcast .prel .aud-text{color:#4169e1}
+.djaudio.dpodcast .prel .aud-bg:before{background-color:#4169e1}
+.djaudio.dpodcast .dta-main svg.dgcolor{fill:#4169e1}
+.djaudio.dpodcast .dta-main svg>path.dgcolor{fill:#4169e1}
+
+.djplayer{width:100%;margin-bottom:10px;display:inline-block}
+.djplayer>.thumb{width:100%}
+.dplayerapp,.dplayerapp>iframe{margin:5px auto;text-align:center}
